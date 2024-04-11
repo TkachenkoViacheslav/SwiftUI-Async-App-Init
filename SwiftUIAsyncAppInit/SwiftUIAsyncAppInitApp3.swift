@@ -22,6 +22,7 @@ class SwiftUIAsyncAppInitAppViewModel3: ObservableObject {
 }
 
 //@main
+// the last and most elegant way is to use the synchronous task in the ViewModel
 struct SwiftUIAsyncAppInitApp3: App {
     @StateObject var viewModel = SwiftUIAsyncAppInitAppViewModel3()
     

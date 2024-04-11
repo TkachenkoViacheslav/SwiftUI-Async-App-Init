@@ -17,7 +17,6 @@ class SwiftUIAsyncAppInitAppViewModel2: ObservableObject {
 }
 
 
-// Full article can be found here
 //The second idea is to use task(priority:_:) method of the View.
 //@main
 struct SwiftUIAsyncAppInitApp2: App {
